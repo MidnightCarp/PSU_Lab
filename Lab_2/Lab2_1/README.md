@@ -28,3 +28,7 @@ List.map (на основе данного списка получить нов�
 
 ### Тестирование  
 
+<img width="668" height="284" alt="изображение" src="https://github.com/user-attachments/assets/68ce00a1-a052-4fe3-b2a4-707d7673f13e" />  
+<img width="619" height="279" alt="изображение" src="https://github.com/user-attachments/assets/b8d700ac-5f19-4c0d-a0fc-ba6d97f974b5" />
+
+
