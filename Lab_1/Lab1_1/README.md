@@ -40,3 +40,6 @@
 
 <img width="564" height="238" alt="изображение" src="https://github.com/user-attachments/assets/8fd484b5-6e88-4365-bad5-3510c29289e9" />
 
+<img width="568" height="418" alt="изображение" src="https://github.com/user-attachments/assets/3d89fe86-3218-4c8e-970c-1b74d59af79d" />
+
+
