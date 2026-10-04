@@ -24,7 +24,7 @@
    D. Завершение работы  
 
 ### Тестирование  
-<img width="416" height="128" alt="изображение" src="https://github.com/user-attachments/assets/5889570b-7381-4644-a823-12afed57e4d0" />
+<img width="416" height="128" alt="изображение" src="https://github.com/user-attachments/assets/5889570b-7381-4644-a823-12afed57e4d0" />  
 
-<img width="499" height="232" alt="изображение" src="https://github.com/user-attachments/assets/a7571e30-5971-4404-b674-ad3b23642ac7" />
+<img width="499" height="232" alt="изображение" src="https://github.com/user-attachments/assets/a7571e30-5971-4404-b674-ad3b23642ac7" />  
 
