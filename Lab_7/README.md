@@ -91,20 +91,23 @@
 4. Для каждой строки:
    * Разделить строку по пробелу, взять фамилию (первый элемент).
    * Если фамилия уже есть в словаре: увеличить счетчик и вывести "Фамилия + Счетчик" (например, "Петров2").
-   * Если фамилии нет: добавить её в словарь со значением 1 и вывести просто "Фамилию".
+   * Если фамилии нет: добавить её в словарь со значением 1 и вывести просто "Фамилию".  
 
 ### Тестирование  
 
-<img width="910" height="396" alt="изображение" src="https://github.com/user-attachments/assets/c0288b4d-64ed-439e-9d5c-bb07e4757692" />
-<img width="224" height="358" alt="изображение" src="https://github.com/user-attachments/assets/ebefc094-9730-4647-8366-c545e3d03cf0" />
-<img width="292" height="57" alt="изображение" src="https://github.com/user-attachments/assets/f4ac6434-93ce-43a1-b4c4-afd60605db60" />
-<img width="219" height="204" alt="изображение" src="https://github.com/user-attachments/assets/d6e55202-27e3-4f07-8e5e-04585a5e1b90" />
-<img width="642" height="70" alt="изображение" src="https://github.com/user-attachments/assets/31db480b-2703-4f3c-b55e-9cad8c62f1cb" />
-<img width="249" height="231" alt="изображение" src="https://github.com/user-attachments/assets/bb6c7eca-1d6b-40ed-b0f8-497734bb78e0" />
-<img width="280" height="166" alt="изображение" src="https://github.com/user-attachments/assets/327f657f-83df-4ee9-9cb3-d30723814c58" />
-<img width="441" height="72" alt="изображение" src="https://github.com/user-attachments/assets/a5266ea5-69ff-48c4-8409-bf36cc718531" />
-
-
-
-
-
+<img width="910" height="396" alt="изображение" src="https://github.com/user-attachments/assets/c0288b4d-64ed-439e-9d5c-bb07e4757692" />  
+<img width="224" height="358" alt="изображение" src="https://github.com/user-attachments/assets/ebefc094-9730-4647-8366-c545e3d03cf0" />  
+<img width="292" height="57" alt="изображение" src="https://github.com/user-attachments/assets/f4ac6434-93ce-43a1-b4c4-afd60605db60" />  
+<img width="219" height="204" alt="изображение" src="https://github.com/user-attachments/assets/d6e55202-27e3-4f07-8e5e-04585a5e1b90" />  
+<img width="642" height="70" alt="изображение" src="https://github.com/user-attachments/assets/31db480b-2703-4f3c-b55e-9cad8c62f1cb" />  
+<img width="249" height="231" alt="изображение" src="https://github.com/user-attachments/assets/bb6c7eca-1d6b-40ed-b0f8-497734bb78e0" />  
+<img width="280" height="166" alt="изображение" src="https://github.com/user-attachments/assets/327f657f-83df-4ee9-9cb3-d30723814c58" />  
+<img width="441" height="72" alt="изображение" src="https://github.com/user-attachments/assets/a5266ea5-69ff-48c4-8409-bf36cc718531" />  
+<img width="461" height="133" alt="изображение" src="https://github.com/user-attachments/assets/72c03060-bffe-48e7-b837-a6fdbb6802d1" />  
+<img width="345" height="424" alt="изображение" src="https://github.com/user-attachments/assets/0cfdc849-08a7-46eb-8cb0-436f891af20a" />  
+<img width="522" height="124" alt="изображение" src="https://github.com/user-attachments/assets/22e59538-bcc1-456f-a7bb-17a77c550efa" />  
+<img width="698" height="284" alt="изображение" src="https://github.com/user-attachments/assets/43249670-1363-4a85-bb59-0d0d738cf6d8" />  
+<img width="454" height="90" alt="изображение" src="https://github.com/user-attachments/assets/19174c8c-3509-491f-9447-6c7752fdd447" />  
+<img width="848" height="130" alt="изображение" src="https://github.com/user-attachments/assets/545833c4-685c-471a-8a48-211d2956efb8" />  
+<img width="279" height="186" alt="изображение" src="https://github.com/user-attachments/assets/2b03efe1-05aa-4a73-8c94-e8f1ba0b3e41" />  
+<img width="347" height="232" alt="изображение" src="https://github.com/user-attachments/assets/5f08899a-0d95-457c-8d84-dc07d6875243" />  
