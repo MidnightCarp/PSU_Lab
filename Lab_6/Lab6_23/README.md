@@ -24,7 +24,7 @@
   B. Вычисляет общее количество минут: totalMinutes = hours * 60 + minutes  
   C. Вызывает приватный метод NormalizeTime(totalMinutes) для приведения времени к корректному формату (00:00 – 23:59)  
 3. Методы:  
-  A. NormalizeTime(int totalMinutes)  
+   A. NormalizeTime(int totalMinutes)  
      * Вычисляет текущее общее количество минут   
      * Прибавляет minutesToAdd (приведение к long для защиты от переполнения)  
      * Берет остаток от деления на 1440 (минуты в сутках)    
