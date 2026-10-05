@@ -26,7 +26,7 @@
   C. Вызывает приватный метод NormalizeTime(totalMinutes) для приведения времени к корректному формату (00:00 – 23:59)  
 
 3. Методы:  
-  A.NormalizeTime(int totalMinutes)  
+   1.NormalizeTime(int totalMinutes)  
    Вычисляет текущее общее количество минут   
    Прибавляет minutesToAdd (приведение к long для защиты от переполнения)  
    Берет остаток от деления на 1440 (минуты в сутках)    
@@ -44,7 +44,7 @@
             -- (декремент): вызывает SubtractMinutes(1)  
   B.Операции приведения типа  
             explicit operator byte: возвращает только часы (_hours), минуты отбрасываются  
-            implicit operator bool: возвращает true, если часы или минуты не равны нулю, иначе false
+            implicit operator bool: возвращает true, если часы или минуты не равны нулю, иначе false  
   C.Бинарные операции + (сложение)  
             Time + uint: вызывает t.AddMinutes(minutes)  
             uint + Time: вызывает t.AddMinutes(minutes) (операция коммутативна)  
