@@ -55,7 +55,22 @@
 *   Метод SaveToFile() вызывается **только** после операций добавления (AddMovie) и удаления (DeleteMovie).
 *   Он открывает файл через BinaryWriter, записывает количество фильмов и все поля каждого фильма в том же порядке, в котором они считывались.
 
-### Тестирование
+### Тестирование  
+
+<img width="677" height="315" alt="изображение" src="https://github.com/user-attachments/assets/e45c3a43-84b2-4709-a1ec-4e73155d2e64" />     
+<img width="677" height="523" alt="изображение" src="https://github.com/user-attachments/assets/4e380a68-2d9f-4d14-a361-77a0293f50ff" />   
+<img width="1292" height="351" alt="изображение" src="https://github.com/user-attachments/assets/4abbf4c0-55ee-4265-9ff9-136bf07b9c08" />   
+<img width="1070" height="177" alt="изображение" src="https://github.com/user-attachments/assets/a5966ff0-4f7f-4671-b68b-f703360aaa5b" />   
+<img width="1292" height="158" alt="изображение" src="https://github.com/user-attachments/assets/9db618b6-a4c4-4223-9a96-0bb413ff8de8" />   
+<img width="513" height="101" alt="изображение" src="https://github.com/user-attachments/assets/63894275-05fd-4b16-95fd-4055680ca751" />   
+<img width="840" height="101" alt="изображение" src="https://github.com/user-attachments/assets/ba48093b-afc7-49ff-af36-a72435439971" />  
+<img width="446" height="96" alt="изображение" src="https://github.com/user-attachments/assets/92afc427-0ed7-418f-8a35-6bcab2479d46" />    
+<img width="1289" height="77" alt="изображение" src="https://github.com/user-attachments/assets/1dbda431-a5ea-45a3-b39c-99d3080edd36" />   
+
+
+
+
+
 
 
 
