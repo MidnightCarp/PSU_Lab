@@ -1,0 +1,72 @@
+﻿<Window x:Class="Lab9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Лабораторная 6 - Перегрузка операций" Height="600" Width="800">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Блок создания объекта Time -->
+        <GroupBox Header="Создание объекта Time" Grid.Row="0" Margin="0,0,0,10">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Часы (0-23):" VerticalAlignment="Center" Margin="5"/>
+                <TextBox x:Name="TxtHours" Width="50" Margin="5" Text="12"/>
+                <TextBlock Text="Минуты (0-59):" VerticalAlignment="Center" Margin="5"/>
+                <TextBox x:Name="TxtMinutes" Width="50" Margin="5" Text="30"/>
+                <Button Content="Создать время" Click="BtnCreateTime_Click" Margin="10,5" Padding="10,2"/>
+                <TextBlock x:Name="TxtCurrentTime" Text="Текущее время: 12:30" VerticalAlignment="Center" Margin="20,0,0,0" FontWeight="Bold"/>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- Задание 2 -->
+        <GroupBox Header="Задание 2. Добавление произвольного количества минут" Grid.Row="1" Margin="0,0,0,10">
+            <StackPanel Orientation="Horizontal" Margin="5">
+                <TextBlock Text="Минуты для добавления (uint):" VerticalAlignment="Center" Margin="5"/>
+                <TextBox x:Name="TxtAddMinutes" Width="80" Margin="5" Text="45"/>
+                <Button Content="Добавить минуты" Click="BtnAddMinutes_Click" Margin="10,5" Padding="10,2"/>
+                <TextBlock x:Name="TxtAddResult" Text="Результат: " VerticalAlignment="Center" Margin="20,0,0,0"/>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- Задание 3 -->
+        <GroupBox Header="Задание 3. Перегрузка операций" Grid.Row="2" Margin="0,0,0,10">
+            <StackPanel Margin="5">
+                <!-- Унарные -->
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <TextBlock Text="Унарные операции:" VerticalAlignment="Center" Width="150"/>
+                    <Button Content="++ (Инкремент)" Click="BtnIncrement_Click" Margin="5" Padding="10,2"/>
+                    <Button Content="-- (Декремент)" Click="BtnDecrement_Click" Margin="5" Padding="10,2"/>
+                    <TextBlock x:Name="TxtUnaryResult" Text="Результат: " VerticalAlignment="Center" Margin="20,0,0,0"/>
+                </StackPanel>
+
+                <!-- Приведение типов -->
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <TextBlock Text="Приведение типов:" VerticalAlignment="Center" Width="150"/>
+                    <Button Content="Явное к byte (часы)" Click="BtnCastByte_Click" Margin="5" Padding="10,2"/>
+                    <Button Content="Неявное к bool (не ноль?)" Click="BtnCastBool_Click" Margin="5" Padding="10,2"/>
+                    <TextBlock x:Name="TxtCastResult" Text="Результат: " VerticalAlignment="Center" Margin="20,0,0,0"/>
+                </StackPanel>
+
+                <!-- Бинарные -->
+                <StackPanel Orientation="Horizontal" Margin="0,5">
+                    <TextBlock Text="Бинарные операции:" VerticalAlignment="Center" Width="150"/>
+                    <TextBlock Text="Число (uint):" VerticalAlignment="Center" Margin="5"/>
+                    <TextBox x:Name="TxtBinaryOperand" Width="80" Margin="5" Text="60"/>
+                    <Button Content="Time + uint" Click="BtnPlusTimeUint_Click" Margin="5" Padding="10,2"/>
+                    <Button Content="uint + Time" Click="BtnPlusUintTime_Click" Margin="5" Padding="10,2"/>
+                    <Button Content="Time - uint" Click="BtnMinusTimeUint_Click" Margin="5" Padding="10,2"/>
+                    <Button Content="uint - Time" Click="BtnMinusUintTime_Click" Margin="5" Padding="10,2"/>
+                </StackPanel>
+                <TextBlock x:Name="TxtBinaryResult" Text="Результат: " Margin="155,5,0,0"/>
+            </StackPanel>
+        </GroupBox>
+
+        <!-- Блок вывода ошибок -->
+        <TextBlock x:Name="TxtError" Grid.Row="3" Foreground="Red" FontWeight="Bold" Margin="5,10,0,0" TextWrapping="Wrap"/>
+    </Grid>
+</Window>
