@@ -37,17 +37,17 @@
      * Возвращает строку в формате ЧЧ:ММ (с ведущими нулями через :D2)  
 4. Перегрузка операций  
   A.Унарные операции   
-            ++ (инкремент): вызывает AddMinutes(1)  
-            -- (декремент): вызывает SubtractMinutes(1)  
+            * ++ (инкремент): вызывает AddMinutes(1)  
+            *  -- (декремент): вызывает SubtractMinutes(1)  
   B.Операции приведения типа  
-            explicit operator byte: возвращает только часы (_hours), минуты отбрасываются  
-            implicit operator bool: возвращает true, если часы или минуты не равны нулю, иначе false
+            * explicit operator byte: возвращает только часы (_hours), минуты отбрасываются  
+            * implicit operator bool: возвращает true, если часы или минуты не равны нулю, иначе false
   C.Бинарные операции + (сложение)  
-            Time + uint: вызывает t.AddMinutes(minutes)  
-            uint + Time: вызывает t.AddMinutes(minutes) (операция коммутативна)  
+            * Time + uint: вызывает t.AddMinutes(minutes)  
+            * uint + Time: вызывает t.AddMinutes(minutes) (операция коммутативна)  
   D.Бинарные операции - (вычитание)  
-            Time - uint: вызывает t.SubtractMinutes(minutes)  
-            uint - Time: создает объект Time(0, 0), добавляет к нему minutes минут, а затем вычитает из результата время t. Возвращает новый объект Time   
+            * Time - uint: вызывает t.SubtractMinutes(minutes)  
+            * uint - Time: создает объект Time(0, 0), добавляет к нему minutes минут, а затем вычитает из результата время t. Возвращает новый объект Time   
  
 === Алгоритм работы ===   
 
