@@ -1,16 +1,3 @@
-difference([], _, []).
-difference([H|T], B, [H|DiffTail]) :-
-    \+ member(H, B),
-    difference(T, B, DiffTail).
-difference([H|T], B, DiffTail) :-
-    member(H, B),
-    difference(T, B, DiffTail).
-
-symmetric_difference(A, B, SymDiff) :-
-    difference(A, B, D1),
-    difference(B, A, D2),
-    append(D1, D2, SymDiff).
-
 ivan_ok(R) :-
     ( member(spartak-1, R) -> T1 = true ; T1 = false ),
     ( member(cska-4,    R) -> T2 = true ; T2 = false ),
