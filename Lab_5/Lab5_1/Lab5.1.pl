@@ -8,7 +8,7 @@ loop_digits :-
     repeat,
     write('Enter a natural number N or q to exit: '), flush_output,
     read_line_to_string(user_input, S),
-    ( (S == "q" ; S == "Q") ->
+    ( S == "q" ->
         writeln('Exiting program.'), !
     ; ( number_string(N, S), integer(N), N >= 0 ->
           number_codes(N, Codes),
