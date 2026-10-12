@@ -8,7 +8,7 @@ loop_count_min :-
     repeat,
       write('Enter a non-empty list of numbers [1,2,3,...] or q to exit: '), flush_output,
       read(Input),
-      ( (Input == 'q' ; Input == 'Q') ->
+      ( Input == q ->
           writeln('Exiting program.'), !
       ; ( is_list(Input), Input \= [] ->
             min_list(Input, Min),
